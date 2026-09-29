@@ -1,0 +1,1 @@
+UPDATE books SET books.stock = books.stock + 5  WHERE books.published_year < 2000;

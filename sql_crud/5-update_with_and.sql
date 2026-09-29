@@ -1,0 +1,1 @@
+UPDATE books SET books.price = books.price * 0.9 WHERE books.stock > 5 AND books.genre = 'Tech';
