@@ -1,0 +1,1 @@
+SELECT title, price, stock FROM books WHERE genre = 'Tech' AND stock > 0 AND published_year > 1999;
