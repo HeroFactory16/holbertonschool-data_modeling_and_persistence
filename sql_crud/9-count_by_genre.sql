@@ -1,0 +1,1 @@
+SELECT genre, COUNT(DISTINCT genre) FROM books GROUP BY genre;
