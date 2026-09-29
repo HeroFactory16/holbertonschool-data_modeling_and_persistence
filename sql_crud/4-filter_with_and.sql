@@ -1,0 +1,1 @@
+SELECT title, price FROM books WHERE books.genre > 30 AND books.genre = 'Tech';
