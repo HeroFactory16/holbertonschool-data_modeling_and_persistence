@@ -1,1 +1,1 @@
-SELECT genre, COUNT(DISTINCT genre) FROM books GROUP BY genre;
+SELECT genre, COUNT(id) FROM books GROUP BY genre;
