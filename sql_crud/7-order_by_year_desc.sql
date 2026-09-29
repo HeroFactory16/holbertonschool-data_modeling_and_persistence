@@ -1,0 +1,1 @@
+SELECT title, published_year FROM books ORDER BY price DESC;
