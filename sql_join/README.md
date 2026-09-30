@@ -1,0 +1,1 @@
+This folder is about working with joins between tables in database.
