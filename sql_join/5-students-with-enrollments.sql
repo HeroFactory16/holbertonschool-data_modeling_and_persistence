@@ -1,7 +1,6 @@
-SELECT students.name
+SELECT students.name AS student_name
 FROM students
-WHERE EXISTS (
-    SELECT 1
+WHERE stdents.id IN (
+    SELECT enrollments.student_id
     FROM enrollments
-    WHERE enrollments.student_id = students.id
 );
