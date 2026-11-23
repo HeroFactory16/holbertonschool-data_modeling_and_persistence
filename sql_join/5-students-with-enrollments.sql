@@ -1,6 +1,6 @@
 SELECT students.name AS student_name
 FROM students
-WHERE stdents.id IN (
+WHERE students.id IN (
     SELECT enrollments.student_id
     FROM enrollments
 );
