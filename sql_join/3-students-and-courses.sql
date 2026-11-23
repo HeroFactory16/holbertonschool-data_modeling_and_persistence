@@ -1,1 +1,1 @@
-SELECT students.name AS student_name, courses.title AS courses_title FROM enrollments INNER JOIN students ON students.id = enrollments.student_id INNER JOIN courses ON courses.id = enrollments.courses_id ORDER BY student.name, courses.title
+SELECT students.name AS student_name, courses.title AS courses_title FROM enrollments INNER JOIN students ON students.id = enrollments.student_id INNER JOIN courses ON courses.id = enrollments.course_id ORDER BY student.name, courses.title
